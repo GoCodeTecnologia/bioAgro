@@ -1,4 +1,4 @@
-<h1>bioAgro</h1>
+<h1>🍃bioAgro</h1>
 
 Trabalho APS do curso de Ciência da Computação 2022 - 1º semestre<br>
 
