@@ -5,6 +5,15 @@
 }
 /* Span hero */
 .hero, .title{
-    color: greenyellow;
+    color: #adff2f;
     font-family: 'Fredoka One', cursive;
+}
+
+.pb-2, .titleFeature {
+    color: #344c0e;
+}
+
+.btn-custom{
+    background-color: #344c0e;
+    color: white;
 }
