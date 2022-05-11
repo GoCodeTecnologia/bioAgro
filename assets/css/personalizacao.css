@@ -17,3 +17,14 @@
     background-color: #344c0e;
     color: white;
 }
+
+.btn-custom:hover{
+    background-color: #172206;
+    color: white;
+}
+
+/* BG CLASSE ESTILIZACAO */
+.bg-principal{
+    background-image: url("../images/background-img.jpg");
+    background-size: cover;
+}
