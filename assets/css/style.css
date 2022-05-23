@@ -47,6 +47,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
@@ -60,8 +61,12 @@ body {
   text-align: left;
   background-color: #f8f8f8; }
 
-[tabindex="-1"]:focus {
-  outline: 0 !important; }
+ ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
 
 hr {
   box-sizing: content-box;
@@ -92,8 +97,7 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-top: 0;}
 
 ol ol,
 ul ul,
@@ -5699,7 +5703,7 @@ button.bg-dark:focus {
 
 .pb-2,
 .py-2 {
-  padding-bottom: 1.25rem !important; }
+  padding-bottom: 1.25rem !important;}
 
 .pl-2,
 .px-2 {
@@ -7946,7 +7950,8 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -9491,7 +9496,6 @@ article > section > .row {
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -12978,7 +12982,7 @@ article > section > .row {
   border-radius: 0.25rem;
   position: relative;
   overflow: hidden;
-  -webkit-mask-image: -webkit-radial-gradient(white, black); }
+ }
   .photo img {
     width: 100%; }
   .photo a {
@@ -13037,18 +13041,6 @@ article > section > .row {
   background-size: cover;
   background-position: center;
   z-index: -1; }
-  .image[class*="-gradient-vertical"] {
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0))); }
-  .image[class*="-gradient-vertical-invert"] {
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))); }
-  .image[class*="-overlay"]::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: "";
-    background: rgba(0, 0, 0, 0.55); }
 
 .no-cssmask .image[class*="-gradient-vertical"], .no-cssmask .image[class*="-gradient-vertical-invert"] {
   display: none; }
@@ -16948,9 +16940,7 @@ a.card {
     z-index: -1; }
   .log:not(:first-child) {
     margin-top: 30px; }
-    .log:not(:first-child)::before {
-      height: calc(100% + $grid-gutter-width);
-      top: -30px; }
+
   .log .accordion {
     text-align: left; }
 
