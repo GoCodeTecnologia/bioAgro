@@ -1,215 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap e CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/personalizacao.css" />
-    <!-- Fonts e Google Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>bioAgro - Soluções Sustentáveis</title>
+  <meta charset="utf-8">
+  <title>bioAgro · Desenvolvimento Sustentável</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+  <link href="assets/style/carousel.css" rel="stylesheet">
+  <link href="assets/css/geral.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- header -->
-    <header class="header header-sticky header-transparent">
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a href="#" class="navbar-brand"><span class="title">.bioAgro</span></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#">Home</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="assets/pages/agroresid.html">AgroResid</span></a>
-                                </li>
-    
-                                <li class="nav-item">
-                                    <a class="nav-link" href="assets/pages/biocred.html">BioCred</span></a>
-                                </li>
-    
-                                <li class="nav-item">
-                                    <a class="nav-link" href="assets/pages/revitagro.html">RevitAgro</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- / header -->
-    <!-- hero -->
-    <section class="bg-principal">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-white text-center">
-                    <h1 class="font-weight-light">Venha conhecer a <b><span class="hero">.bioAgro</span></b> e faça
-                        parte da nossa empresa.</h1>
-                </div>
-            </div>
-            <div class="row">
-                <!-- <div class="col text-center">
-                    <a href="#" class="btn btn-green"><b>Conhecer</b> <i class="fa fa-chevron-right"
-                            aria-hidden="true"></i></a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <!-- / hero -->
-    <!-- features -->
-    <div class="container px-4 py-5 text-center" id="hanging-icons">
-        <h2 class="topicos pb-2 border-bottom text-center"><i class="fa fa-envira" aria-hidden="true"></i> Quem <b>somos</b> ?</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start col-md-6">
-                <div>
-                    <h2 class="titleFeature">bioAgro</h2>
-                    <p>A BioAgro busca a concientização sobre agronomia, visando a preservação e a recuperação 
-                        dos nossos ecossistemas e seus recursos naturais. Com foco na união entre os interesses
-                        economico e sustentavel, através da manutenção do ambiente do agronegócio e apoio ao produto rural.
-                    </p>    
-                </div>
-            </div>
-            <div class="col d-flex align-items-start col-md-6">
-                <div>
-                    <img src="assets/images/background.jpeg" class="img-fluid" alt="Imagem da empresa bioAgro">
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h2 class="titleFeature mt-3"> Missão</h2>
-                    <p>Buscamos coordenar o meio agrícola e suas atividades de modo a minimizar os impactos ambientais e contribuir com o
-                        desenvolvimento sustentável.
-                    </p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h2 class="titleFeature  mt-3">Visão</h2>
-                    <p>Ser referência mundial em desenvolvimento sustentavel agricola.</p>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h2 class="titleFeature  mt-3">Valores</h2>
-                    <ul>                       
-                        <li>Respeito</li>
-                        <li>Equilíbrio</li>
-                        <li>Comprometimento com o Meio Ambiente</li>
-                        <li>Cuidar do nosso planeta</li>
-                         <li>Liderança</li>
-                        <li>Qualidade</li>
 
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">bioAgro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/agroresid.html">AgroResid</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/biocred.html">BioCred</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/revitagro.html">RevitAgro</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-                    </ul>
-                </div>
+  <main>
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/slide1.jpg" class="bd-placeholder-img" alt="Imagem slide 1" width="100%">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Soluções Sustentáveis</h1>
+              <p><a class="btn btn-lg btn-custom" href="pages/revitagro.html">Conhecer</a></p>
             </div>
+          </div>
         </div>
-        <!-- features 2 -->
-        <h2 class="topicos pb-2 border-bottom text-center"><i class="fa fa-envira" aria-hidden="true"></i> Nossos <b>projetos</b></h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h2 class="titleFeature">AgroResid</h2>
-                    <p>Visa disponibilizar alojamentos sustentaveis usando energia limpa e incentivar a reciclagem
-                        e a reutilização de alguns produtos e materias usados no desempenho de determinadas tarefas rurais.
-                    </p>
-                    <br><br>
-                    <a href="assets/pages/agroresid.html" class="btn btn-custom">
-                        <b>Conhecer</b>
-                    </a>
-                </div>
+        <div class="carousel-item">
+          <img src="assets/images/slide2.jpg" class="bd-placeholder-img" alt="Imagem slide 2" width="100%">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Ajuda de custo aos produtores</h1>
+              <p><a class="btn btn-lg btn-custom" href="pages/agroresid.html">Ler mais</a></p>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h2 class="titleFeature">BioCred</h2>
-                    <p>é responsável por oferecer crédito ao produtor rural.</p>
-                    <br><br><br><br><br>
-                    <a href="assets/pages/biocred.html" class="btn btn-custom">
-                        <b>Conhecer</b>
-                    </a>
-                </div>
-            </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h2 class="titleFeature">RevitAgro</h2>
-                    <p> Visa a recuperação de pastagens depredadas e posibilitará a implantação de novas
-                        lavouras, sem a necessidade de desmatamento para assim expandir a produção agricola. 
-                        <br><br><br>
-                    </p>
-                    <a href="assets/pages/revitagro.html" class="btn btn-custom">
-                        <b>Conhecer</b>
-                    </a>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- / features 2 -->
+        <div class="carousel-item">
+          <img src="assets/images/slide2.jpg"class="bd-placeholder-img" alt="Imagem slide 2" width="100%">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Revitalização do solo</h1>
+              <p><a class="btn btn-lg btn-custom" href="pages/revitagro.html">Conhecer</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
     </div>
 
-    <!-- / features -->
-    <!-- cta -->
-    
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2 class="fw-normal title">AgroResid</h2>
+          <p>Programa de moradias sustentáveis</p>
+          <p><a class="btn btn-custom" href="pages/agroresid.html">Conhecer</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2 class="fw-normal title">BioCred</h2>
+          <p>Programa de crédito ao produtor rural</p>
+          <p><a class="btn btn-custom" href="pages/biocred.html">Conhecer</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2 class="fw-normal title">RevitAgro</h2>
+          <p>Programa de revitalização do solo</p>
+          <p><a class="btn btn-custom" href="pages/revitagro.html">Conhecer</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
-    <!-- / cta -->
-    <!-- footer -->
-    <footer class="bg-dark">
-        <div class="container">
-            <div class="row gutter-3">
-                <div class="col-12 col-md-2">
-                    <a href="" class="navbar-brand"><span class="title">.bioAgro</span></a>
-                </div>
-                <div class="col-12 col-md-6 text-white">
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="row">
-                        <div class="col">
-                            <ul class="list-group list-group-minimal">
-                                <li class="list-group-item"><a href="assets/pages/quemsomos.html" class="link">Quem
-                                        Somos</a></li>
-                                <li class="list-group-item"><a href="assets/pages/missao.html" class="link">Missão</a>
-                                </li>
-                                <li class="list-group-item"><a href="" class="link">Link 3</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul class="list-group list-group-minimal">
-                                <li class="list-group-item"><a href="assets/pages/agroresid.html"
-                                        class="link">AgroResid</a></li>
-                                <li class="list-group-item"><a href="assets/pages/biocred.html" class="link">BioCred</a>
-                                </li>
-                                <li class="list-group-item"><a href="assets/pages/revitagro.html"
-                                        class="link">RevitAgro</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul class="list-group list-group-minimal">
-                                <li class="list-group-item"><a href="#" class="link">Sustentabilidade no agronegócio</a>
-                                </li>
-                                <li class="list-group-item"><a href="#" class="link">Crédito ao produtor rural</a></li>
-                                <li class="list-group-item"><a href="#" class="link">Técnicas de reciclagem</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p><a href="#">GoCode Tecnologia &#174;, 2022</a></p>
-                </div>
-            </div>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1 title">Nós estamos preocupados com o mundo. <span
+              class="text-muted muted">Saiba o que nós fazemos para mudar.</span></h2>
+          <p class="lead">Realizamos diversos projetos sociais, além de focarmos nossos esforços ajudando os produtores rurais, com o sistema de 
+            mmoradias sustentáveis e com o sistema de crédito.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="assets/images/eco.svg" width="300" height="300">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1 title">Esses são os nossos valores. <span class="text-muted">Veja
+              você mesmo.</span></h2>
+          <p class="lead"><ul>
+            <li>Humanismo</li>
+            <li>Criatividade</li>
+            <li>Equilíbrio</li>
+            <li>Humanismo</li>
+            <li>Transparência</li>
+          </ul></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="assets/images/welcome.svg" width="300" height="300">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1 title">Nosso programa de crédito ao produtor. <span
+              class="text-muted muted">Ajudamos quem mais precisa.</span></h2>
+          <p class="lead">Com o BioCred o produtor rural tem todo o apoio e auxilio para que ele possa receber o seu dinheiro
+            de acordo com o valor de mercado.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="assets/images/money.svg" width="300" height="300">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <hr class="featurette-divider">
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-4 mb-3">
+          <h5>Mapa do Site</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="pages/agroresid.html" class="nav-link p-0 text-muted">AgroResid</a></li>
+            <li class="nav-item mb-2"><a href="pages/biocred.html" class="nav-link p-0 text-muted">BioCred</a></li>
+            <li class="nav-item mb-2"><a href="pages/revitagro.html" class="nav-link p-0 text-muted">ResidAgro</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-4 mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+          </ul>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 GoCode Tecnologia. Todos os direitos reservados.</p>
         </div>
     </footer>
-    <!-- / footer -->
-    <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/app.js"></script>
+  </div>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

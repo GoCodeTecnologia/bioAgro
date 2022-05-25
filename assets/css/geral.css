@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@300&display=swap');
+/* Fonte geral */
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-custom{
+    background-color: #344c0e;
+    color: white;
+}
+
+.btn-custom:hover{
+    background-color: #344c0e;
+    color: aliceblue;
+}
+
+.title{
+    color:#344c0e;
+}
+
+.muted{
+    color:#adff2f;
+}
